@@ -35,7 +35,7 @@
 
 **1.** Original file path to a clean `data.win`
 
-**2.** XDelta patch path as the `.xdelta` created from the modded `data.win`
+**2.** XDelta patch path as the `.xdelta` patch
 
 &nbsp;
 
