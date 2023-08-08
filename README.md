@@ -1,3 +1,4 @@
+![network](https://static.wikia.nocookie.net/zero-sievert/images/1/15/Mysterious_NPC_Icon.png/revision/latest?cb=20221221023137)
 ## Installing mods
 [ModOrganizer2](https://github.com/ModOrganizer2/modorganizer)
 
@@ -6,6 +7,8 @@
 [ZS Nexus](https://www.nexusmods.com/zerosievert)
 
 [ZS Discord](https://discord.gg/sievert)
+
+[ZS Modding Wiki](https://zero-sievert.fandom.com/wiki/Modding)
 
 &nbsp;
 
