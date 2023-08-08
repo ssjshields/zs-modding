@@ -16,7 +16,7 @@
 
 **2.** Open `data.win`, modify or import desired content 
 
-**3.** Save as a new `data.win`, add to a zip archive
+**3.** Save as new `data.win`, add to zip archive
 
 > Do not redistribute `data.win` files, instead create a xdelta patches
 
@@ -50,4 +50,4 @@
 
 **2.** Modify desired `.json` files using text editor or IDE
 
-**3.** Delete unmodified `.json` files, add the `ZS_vanilla` folder to a zip archive
+**3.** Delete unmodified `.json` files, add the `ZS_vanilla` folder to zip archive
