@@ -1,4 +1,3 @@
-![network](https://static.wikia.nocookie.net/zero-sievert/images/1/15/Mysterious_NPC_Icon.png/revision/latest?cb=20221221023137)
 ## Installing mods
 [ModOrganizer2](https://github.com/ModOrganizer2/modorganizer)
 
