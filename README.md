@@ -1,24 +1,50 @@
+## Installing mods
+[ModOrganizer2](https://github.com/ModOrganizer2/modorganizer)
+
+[ModOrganizer2 ZS plugin](https://www.nexusmods.com/site/mods/617?tab=description)
+
+[ZS Discord](https://discord.gg/sievert)
+
+&nbsp;
 
 ## Accessing game assets
 **1.** Backup `steamapps\common\ZERO Sievert\data.win`
 
-**2.** Copy `data.win` to any working directory
+**2.** Open `data.win` with UndertaleModTool
 
-**3.** Open `data.win` with [UndertaleModTool](https://github.com/krzys-h/UndertaleModTool)
-
-> Modify desired code, functions, sprites, strings, textures, etc
-
-> To create a data.win mod, save changes as a new data.win file
 &nbsp;
 
+## Creating data.win mods
+[UndertaleModTool](https://github.com/krzys-h/UndertaleModTool)
+
+**1.** Modify or import desired content 
+
+**2.** Save as a new `data.win`, add to zip archive
+
+&nbsp;
 
 ## Creating xdelta patches
-**1.** Copy `steamapps\common\ZERO Sievert\data.win` to desired working directory
+[DeltaPatcher](https://github.com/marco-calautti/DeltaPatcher)
 
+**1.** Original file path to a clean `data.win`
 
-**2.** 
+**2.** Modified file path to the modded `data.win` 
+
+**3.** XDelta patch path as the output location
+
+> It is recommended to add comments to the patch description
 
 &nbsp;
+
+## Applying xdelta patches
+[DeltaPatcher](https://github.com/marco-calautti/DeltaPatcher)
+
+**1.** Original file path to a clean `data.win`
+
+**2.** XDelta patch path as the `.xdelta` created from the modded `data.win`
+&nbsp;
+
+
 
 ## Types of mods
 - .json
@@ -28,12 +54,7 @@
 - misc (e.g., mp4)
 
 ## Tools and Resources
-[UndertaleModTool](https://github.com/krzys-h/UndertaleModTool)
 
-[DeltaPatcher](https://github.com/marco-calautti/DeltaPatcher)
 
-[ModOrganizer2](https://github.com/ModOrganizer2/modorganizer)
 
-[ModOrganizer2 ZS plugin](https://www.nexusmods.com/site/mods/617?tab=description)
 
-[ZS Discord](https://discord.gg/sievert)
