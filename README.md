@@ -26,7 +26,7 @@
 
 **3.** Save as new `data.win`, add to zip archive
 
-> Do not redistribute `data.win` files, instead create a xdelta patches
+> Do not redistribute `data.win` files, instead create xdelta patches
 
 &nbsp;
 
