@@ -34,18 +34,21 @@
 
 &nbsp;
 
+## Useful tools
+**Audio:** [Audacity](https://www.audacityteam.org/) & [Foobar](https://www.foobar2000.org/)
+
+**Coding:** [Notepad++](https://notepad-plus-plus.org/) & [Visual Studio Code](https://code.visualstudio.com/)
+
+**Fonts:** [FontForge](https://fontforge.org/en-US/) & [Google Fonts](https://fonts.google.com/)
+
+**Sprites:** [Photopea](https://www.photopea.com/), [Gimp](https://www.gimp.org/) or [Aseprite](https://www.aseprite.org)
+
+&nbsp;
+
 ## Creating data.win mods
 **Required:** [UndertaleModTool](https://github.com/krzys-h/UndertaleModTool)
 
 **Recommended:** [Custom Sprite Framework](https://www.nexusmods.com/zerosievert/mods/16)
-
-**Recommended for audio:** [Audacity](https://www.audacityteam.org/) & [Foobar](https://www.foobar2000.org/)
-
-**Recommended for coding:** [Notepad++](https://notepad-plus-plus.org/) & [Visual Studio Code](https://code.visualstudio.com/)
-
-**Recommended for fonts:** [FontForge](https://fontforge.org/en-US/) & [Google Fonts](https://fonts.google.com/)
-
-**Recommended for sprites:** [Photopea](https://www.photopea.com/), [Gimp](https://www.gimp.org/) or [Aseprite](https://www.aseprite.org)
 
 **1.** Open `data.win` with UMT
 
