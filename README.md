@@ -16,7 +16,7 @@
 
 **Recommended:** [ModOrganizer2](https://github.com/ModOrganizer2/modorganizer) & [MO2 ZS plugin](https://www.nexusmods.com/site/mods/617?tab=description)
 
-**Alternative:** [Vortex](https://www.nexusmods.com/about/vortex/) & [Vortex ZS plugin](https://www.nexusmods.com/site/mods/618)
+**Alternative:** [Vortex](https://www.nexusmods.com/about/vortex/)
 
 > Always follow mod author's installation instructions
 
@@ -35,13 +35,17 @@
 &nbsp;
 
 ## Creating data.win mods
+**Required:** [UndertaleModTool](https://github.com/krzys-h/UndertaleModTool)
+
+**Recommended:** [Custom Sprite Framework](https://www.nexusmods.com/zerosievert/mods/16)
+
 **Recommended for audio:** [Audacity](https://www.audacityteam.org/) & [Foobar](https://www.foobar2000.org/)
 
 **Recommended for coding:** [Notepad++](https://notepad-plus-plus.org/) & [Visual Studio Code](https://code.visualstudio.com/)
 
-**Recommended for sprites:** [Photopea](https://www.photopea.com/) or [Gimp](https://www.gimp.org/) or [Aseprite](https://www.aseprite.org)
+**Recommended for fonts:** [FontForge](https://fontforge.org/en-US/) & [Google Fonts](https://fonts.google.com/)
 
-**Required:** [UndertaleModTool](https://github.com/krzys-h/UndertaleModTool)
+**Recommended for sprites:** [Photopea](https://www.photopea.com/), [Gimp](https://www.gimp.org/) or [Aseprite](https://www.aseprite.org)
 
 **1.** Open `data.win` with UMT
 
@@ -51,11 +55,7 @@
 
 **2.** Modify, import or export desired content
 
-> If you are modifying sprites, utilize [Custom Sprite Framework](https://www.nexusmods.com/zerosievert/mods/16) to reimport them
-
 **3.** Save as new `data.win`, add to zip archive
-
-**4.** Install using desired mod manager
 
 > Do not redistribute `data.win` files, instead create xdelta patches
 
@@ -109,7 +109,9 @@
 
 **2.** Right click the highlighted difference and copy the code into the desired file
 
-> Repeat this process for each desired difference, merging all desired changes into one file as the game can only load a single `.json` at a time.
+> Repeat this process for each desired difference, merging all desired changes into a single file
+
+> Due to current limitations, ZERO Siervert can only load one of each `.json` at a time
 
 ![image](https://github.com/ssjshields/zs-modding/assets/88489119/dec67afc-b4cd-4b01-b624-8ed98610b8f2)
 
