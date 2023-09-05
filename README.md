@@ -43,17 +43,21 @@
 
 **Required:** [UndertaleModTool](https://github.com/krzys-h/UndertaleModTool)
 
-**1.** Open `data.win` with UMT, modify or import desired content 
+**1.** Open `data.win` with UMT
 
 > Associate UMT with the `.win` filetype for ease of access
 
 ![image](https://github.com/ssjshields/zs-modding/assets/88489119/23ac2745-d6b6-4147-992b-25479d6e88a0)
 
-**2.** Save as new `data.win`, add to zip archive
+**2.** Modify, import or export desired content
 
-**3.** Install using desired mod manager
+> If you are modifying sprites, utilize [Custom Sprite Framework](https://www.nexusmods.com/zerosievert/mods/16) to reimport them
 
-> DO NOT redistribute `data.win` files, instead create xdelta patches
+**3.** Save as new `data.win`, add to zip archive
+
+**4.** Install using desired mod manager
+
+> Do not redistribute `data.win` files, instead create xdelta patches
 
 &nbsp;
 
