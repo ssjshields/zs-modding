@@ -22,18 +22,6 @@
 
 &nbsp;
 
-## Directories
-**Assets**: `ZERO Sievert\data.win`
-> fonts, scripts, sounds, sprites and strings
-
-**Gamedata**: `ZERO Sievert\ZS_vanilla`
-> load order, values and descriptions for weapons, items, npcs
-
-**Savedata:** `%localappdata%\ZERO_Sievert`
-> save slots, game settings and backups
-
-&nbsp;
-
 ## Useful tools
 **Audio:** [Audacity](https://www.audacityteam.org/) & [Foobar](https://www.foobar2000.org/)
 
@@ -42,6 +30,18 @@
 **Fonts:** [FontForge](https://fontforge.org/en-US/) & [Google Fonts](https://fonts.google.com/)
 
 **Sprites:** [Photopea](https://www.photopea.com/), [Gimp](https://www.gimp.org/) or [Aseprite](https://www.aseprite.org)
+
+&nbsp;
+
+## Directories
+**Assets**: `ZERO Sievert\data.win`
+> Fonts, scripts, sounds, sprites and strings
+
+**Gamedata**: `ZERO Sievert\ZS_vanilla`
+> Load order, values and descriptions for weapons, items, npcs
+
+**Savedata:** `%localappdata%\ZERO_Sievert`
+> Save slots, game settings and backups
 
 &nbsp;
 
@@ -93,13 +93,13 @@
 &nbsp;
 
 ## Creating JSON mods
-**Recommended:** [Notepad++](https://notepad-plus-plus.org/) & [Visual Studio Code](https://code.visualstudio.com/)
+**1.** Modify `.json` files using desired text editor
 
-**1.** Modify `.json` files using desired text editor or IDE
-
-**2.** Create mod hirearchy, starting with `ModName\ZS_vanilla\gamedata`
+**2.** Create a new folder with your mod name as the title `ModName\ZS_vanilla\gamedata`
 
 **3.** Add modified `.json` files to the mod's `gamedata` folder
+
+[Packaged folder structure example](https://github.com/ssjshields/zs-modding/blob/main/example_json_mod.zip)
 
 &nbsp;
 
