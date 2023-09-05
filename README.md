@@ -1,61 +1,117 @@
 &nbsp;
 
-![10bcdb665462e3cd4d10adc7bfbf02db](https://github.com/ssjshields/zs-modding/assets/88489119/e4c3417c-50a3-493c-bfc7-77d70d282939)
+![zslogo](https://github.com/ssjshields/zs-modding/assets/88489119/e4c3417c-50a3-493c-bfc7-77d70d282939)
 
 &nbsp;
 
-## Installing mods
-[ModOrganizer2](https://github.com/ModOrganizer2/modorganizer)
+[ZS Official Discord](https://discord.gg/sievert)
 
-[ModOrganizer2 ZS plugin](https://www.nexusmods.com/site/mods/617?tab=description)
-
-[ZS Nexus](https://www.nexusmods.com/zerosievert)
-
-[ZS Discord](https://discord.gg/sievert)
+[ZS Nexus Mods](https://www.nexusmods.com/zerosievert)
 
 [ZS Modding Wiki](https://zero-sievert.fandom.com/wiki/Modding)
 
 &nbsp;
 
+## Mod managers
+
+**Recommended:** [ModOrganizer2](https://github.com/ModOrganizer2/modorganizer) & [MO2 ZS plugin](https://www.nexusmods.com/site/mods/617?tab=description)
+
+**Alternative:** [Vortex](https://www.nexusmods.com/about/vortex/) & [Vortex ZS plugin](https://www.nexusmods.com/site/mods/618)
+
+> Always follow mod author's installation instructions
+
+&nbsp;
+
+## Directories
+**Assets**: `ZERO Sievert\data.win`
+> fonts, scripts, sounds, sprites and strings
+
+**Gamedata**: `ZERO Sievert\ZS_vanilla`
+> load order, values and descriptions for weapons, items, npcs
+
+**Savedata:** `%localappdata%\ZERO_Sievert`
+> save slots, game settings and backups
+
+&nbsp;
+
 ## Creating data.win mods
-[UndertaleModTool](https://github.com/krzys-h/UndertaleModTool)
+**Recommended for audio:** [Audacity](https://www.audacityteam.org/) & [Foobar](https://www.foobar2000.org/)
 
-**1.** Backup `steamapps\common\ZERO Sievert\data.win`
+**Recommended for coding:** [Notepad++](https://notepad-plus-plus.org/) & [Visual Studio Code](https://code.visualstudio.com/)
 
-**2.** Open `data.win`, modify or import desired content 
+**Recommended for sprites:** [Photopea](https://www.photopea.com/) or [Gimp](https://www.gimp.org/) or [Aseprite](https://www.aseprite.org)
 
-**3.** Save as new `data.win`, add to zip archive
+**Required:** [UndertaleModTool](https://github.com/krzys-h/UndertaleModTool)
 
-> Do not redistribute `data.win` files, instead create xdelta patches
+**1.** Open `data.win` with UMT, modify or import desired content 
+
+> Associate UMT with the `.win` filetype for ease of access
+
+![image](https://github.com/ssjshields/zs-modding/assets/88489119/23ac2745-d6b6-4147-992b-25479d6e88a0)
+
+**2.** Save as new `data.win`, add to zip archive
+
+**3.** Install using desired mod manager
+
+> DO NOT redistribute `data.win` files, instead create xdelta patches
 
 &nbsp;
 
-## Applying xdelta patches
-[DeltaPatcher](https://github.com/marco-calautti/DeltaPatcher)
+## Creating XDelta patches
+**Required:** [DeltaPatcher](https://github.com/marco-calautti/DeltaPatcher)
 
-**1.** Original file path to a clean `data.win`
+**1.** Set the "Original file:" path to a clean `data.win`
 
-**2.** XDelta patch path as the `.xdelta` patch
+**2.** Set the "Modified file:" path to the modded `data.win` 
 
-&nbsp;
-
-## Creating xdelta patches
-[DeltaPatcher](https://github.com/marco-calautti/DeltaPatcher)
-
-**1.** Original file path to a clean `data.win`
-
-**2.** Modified file path to the modded `data.win` 
-
-**3.** XDelta patch path to the desired output location
+**3.** Set the "XDelta patch:" path to the desired output location
 
 > It is recommended to add comments to the patch description
 
+![image](https://github.com/ssjshields/zs-modding/assets/88489119/afd07b1b-b683-4fa0-ac5c-f3d1d11ac6b6)
+
 &nbsp;
 
-## Creating .json mods
+## Applying XDelta patches
+**Required:** [DeltaPatcher](https://github.com/marco-calautti/DeltaPatcher)
 
-**1.** Backup `steamapps\common\ZERO Sievert\ZS_vanilla\`
+**1.** Set the "Original file:" path to a clean `data.win`
 
-**2.** Modify desired `.json` files using text editor or IDE
+**2.** Set the "XDelta patch:" path as the `.xdelta` (mod)
 
-**3.** Delete unmodified `.json` files, add the `ZS_vanilla` folder to zip archive
+**3.** Click "Apply patch"
+
+![applying_patch](https://github.com/ssjshields/zs-modding/assets/88489119/5c0553f5-b883-4e34-890e-fa5c43d78cd3)
+
+&nbsp;
+
+## Creating JSON mods
+**Recommended:** [Notepad++](https://notepad-plus-plus.org/) & [Visual Studio Code](https://code.visualstudio.com/)
+
+**1.** Modify `.json` files using desired text editor or IDE
+
+**2.** Create mod hirearchy, starting with `ModName\ZS_vanilla\gamedata`
+
+**3.** Add modified `.json` files to the mod's `gamedata` folder
+
+&nbsp;
+
+## Merging JSON mods
+**Required:** [WinMerge](https://winmerge.org/?lang=en) or similar difference check software
+
+**1.** Compare up to three `.json` files (left, middle and right view.)
+
+![image](https://github.com/ssjshields/zs-modding/assets/88489119/cc9311f2-f755-4472-94ae-1825df1c0501)
+
+**2.** Right click the highlighted difference and copy the code into the desired file
+
+> Repeat this process for each desired difference, merging all desired changes into one file as the game can only load a single `.json` at a time.
+
+![image](https://github.com/ssjshields/zs-modding/assets/88489119/dec67afc-b4cd-4b01-b624-8ed98610b8f2)
+
+![image](https://github.com/ssjshields/zs-modding/assets/88489119/d4149992-81d1-4f0d-be76-7518cb51f48f)
+
+![image](https://github.com/ssjshields/zs-modding/assets/88489119/2e86bbb9-8c27-4762-8601-ff77dfb5b05e)
+
+**3.** Save and overwrite original files in desired mod
+
