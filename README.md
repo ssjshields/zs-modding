@@ -18,6 +18,18 @@
 
 &nbsp;
 
+## File directories
+**Assets**: `ZERO Sievert\data.win`
+> Fonts, scripts, sounds, sprites and strings
+
+**Gamedata**: `ZERO Sievert\ZS_vanilla`
+> Load order, values and descriptions for weapons, items, npcs
+
+**Savedata:** `%localappdata%\ZERO_Sievert`
+> Save slots, game settings and backups
+
+&nbsp;
+
 ## Editing resources
 **Audio:** [Audacity](https://www.audacityteam.org/) & [Foobar](https://www.foobar2000.org/)
 
@@ -27,18 +39,6 @@
 > ZERO Sievert uses [Munro](https://www.fontspace.com/munro-font-f14903)
 
 **Sprites:** [Photopea](https://www.photopea.com/), [Gimp](https://www.gimp.org/) or [Aseprite](https://www.aseprite.org)
-
-&nbsp;
-
-## Directories
-**Assets**: `ZERO Sievert\data.win`
-> Fonts, scripts, sounds, sprites and strings
-
-**Gamedata**: `ZERO Sievert\ZS_vanilla`
-> Load order, values and descriptions for weapons, items, npcs
-
-**Savedata:** `%localappdata%\ZERO_Sievert`
-> Save slots, game settings and backups
 
 &nbsp;
 
