@@ -64,11 +64,11 @@
 ## Creating XDelta patches
 **Required:** [DeltaPatcher](https://github.com/marco-calautti/DeltaPatcher)
 
-**1.** Set the "Original file" path to a clean `data.win`
+**1.** Set "Original file" path to a clean `data.win`
 
-**2.** Set the "Modified file" path to the modded `data.win` 
+**2.** Set "Modified file" path to the modded `data.win` 
 
-**3.** Set the "XDelta patch" path to the desired output location
+**3.** Set "XDelta patch" path to the desired output location
 
 > It is recommended to add comments to the patch description
 
@@ -79,9 +79,9 @@
 ## Applying XDelta patches
 **Required:** [DeltaPatcher](https://github.com/marco-calautti/DeltaPatcher)
 
-**1.** Set the "Original file:" path to a clean `data.win`
+**1.** Set "Original file" path to a clean `data.win`
 
-**2.** Set the "XDelta patch:" path as the `.xdelta` (mod)
+**2.** Set "XDelta patch" path as the `.xdelta` (mod)
 
 ![applying_patch](https://github.com/ssjshields/zs-modding/assets/88489119/5c0553f5-b883-4e34-890e-fa5c43d78cd3)
 
