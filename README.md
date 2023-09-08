@@ -83,8 +83,6 @@
 
 **2.** Set the "XDelta patch:" path as the `.xdelta` (mod)
 
-**3.** Click "Apply patch"
-
 ![applying_patch](https://github.com/ssjshields/zs-modding/assets/88489119/5c0553f5-b883-4e34-890e-fa5c43d78cd3)
 
 &nbsp;
