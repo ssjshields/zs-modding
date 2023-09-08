@@ -1,8 +1,4 @@
-&nbsp;
-
-![zslogo](https://github.com/ssjshields/zs-modding/assets/88489119/e4c3417c-50a3-493c-bfc7-77d70d282939)
-
-&nbsp;
+![zsimage](https://github.com/ssjshields/zs-modding/assets/88489119/4fd30cc1-915a-4e9f-aa67-34725afd8235)
 
 [ZS Official Discord](https://discord.gg/sievert)
 
@@ -67,11 +63,11 @@
 ## Creating XDelta patches
 **Required:** [DeltaPatcher](https://github.com/marco-calautti/DeltaPatcher)
 
-**1.** Set the "Original file:" path to a clean `data.win`
+**1.** Set the "Original file" path to a clean `data.win`
 
-**2.** Set the "Modified file:" path to the modded `data.win` 
+**2.** Set the "Modified file" path to the modded `data.win` 
 
-**3.** Set the "XDelta patch:" path to the desired output location
+**3.** Set the "XDelta patch" path to the desired output location
 
 > It is recommended to add comments to the patch description
 
