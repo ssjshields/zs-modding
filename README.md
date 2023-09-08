@@ -18,7 +18,7 @@
 
 &nbsp;
 
-## Useful information
+## Editing resources
 **Audio:** [Audacity](https://www.audacityteam.org/) & [Foobar](https://www.foobar2000.org/)
 
 **Coding:** [Notepad++](https://notepad-plus-plus.org/) & [Visual Studio Code](https://code.visualstudio.com/)
