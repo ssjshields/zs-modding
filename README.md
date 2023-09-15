@@ -30,6 +30,12 @@
 
 &nbsp;
 
+## Debug Mode
+`ctrl` + `alt` + `p`
+> Spawn items, enemies, weather, teleport
+
+&nbsp;
+
 ## Editing resources
 **Audio:** [Audacity](https://www.audacityteam.org/) & [Foobar](https://www.foobar2000.org/)
 
@@ -83,7 +89,13 @@
 
 **2.** Set "XDelta patch" path as the `.xdelta` (mod)
 
+> Patches can only be applied **once**
+
+> Do not load more than one modified `data.win` file at a time
+
 ![applying_patch](https://github.com/ssjshields/zs-modding/assets/88489119/fb2caeb1-7b3f-4f6b-9fe8-a3a61809c997)
+
+
 
 &nbsp;
 
