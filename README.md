@@ -51,17 +51,13 @@
 ## Creating data.win mods
 **Required:** [UndertaleModTool](https://github.com/krzys-h/UndertaleModTool)
 
-**1.** Open `data.win` with UMT
+**1.** Open `data.win` with UMT and make desired changes
 
 > Associate UMT with the `.win` filetype for ease of access
 
 ![image](https://github.com/ssjshields/zs-modding/assets/88489119/23ac2745-d6b6-4147-992b-25479d6e88a0)
 
-**2.** Modify, import or export desired content
-
 > For texture mods- export content and utilize [Custom Sprite Framework](https://www.nexusmods.com/zerosievert/mods/16)
-
-> For all other mods- save as new `data.win`, add to zip archive
 
 > Do not redistribute `data.win` files, instead create XDelta patches
 
