@@ -1,4 +1,4 @@
-![githubzsmg](https://github.com/ssjshields/zs-modding/assets/88489119/b807caf7-31b4-4ec4-addc-86d4f7167dee)
+![zsmgt](https://github.com/ssjshields/zs-modding/assets/88489119/6847cf3f-c52e-4c5b-8f00-13f2532847eb)
 
 [ZS Official Discord](https://discord.gg/sievert)
 
