@@ -14,7 +14,7 @@
 
 **Alternative:** [Vortex](https://www.nexusmods.com/about/vortex/)
 
-> Always follow mod author's installation instructions
+> While installing mods refer to the author's instructions
 
 &nbsp;
 
@@ -32,7 +32,7 @@
 
 ## Debug Mode
 `ctrl` + `alt` + `p`
-> Spawn items, enemies, weather, teleport
+> Spawn items and enemies, adjust weather, teleport
 
 &nbsp;
 
@@ -95,8 +95,6 @@
 
 ![applying_patch](https://github.com/ssjshields/zs-modding/assets/88489119/fb2caeb1-7b3f-4f6b-9fe8-a3a61809c997)
 
-
-
 &nbsp;
 
 ## Creating JSON mods
@@ -117,7 +115,7 @@
 
 ![image](https://github.com/ssjshields/zs-modding/assets/88489119/cc9311f2-f755-4472-94ae-1825df1c0501)
 
-**2.** Right click the highlighted difference and copy the code into the desired file
+**2.** Right-click the highlighted difference and copy the code into the desired file
 
 > Repeat this process for each desired difference, merging all desired changes into a single file
 
