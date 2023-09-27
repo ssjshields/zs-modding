@@ -1,127 +1,207 @@
-![zsmgt](https://github.com/ssjshields/zs-modding/assets/88489119/6847cf3f-c52e-4c5b-8f00-13f2532847eb)
-
-[ZS Official Discord](https://discord.gg/sievert)
-
-[ZS Nexus Mods](https://www.nexusmods.com/zerosievert)
-
-[ZS Modding Wiki](https://zero-sievert.fandom.com/wiki/Modding)
-
-&nbsp;
-
-## Mod managers
-
-**Recommended:** [ModOrganizer2](https://github.com/ModOrganizer2/modorganizer) & [MO2 ZS plugin](https://www.nexusmods.com/site/mods/617?tab=description)
-
-**Alternative:** [Vortex](https://www.nexusmods.com/about/vortex/)
-
-> While installing mods refer to the author's instructions
-
-&nbsp;
-
-## File directories
-**Assets**: `ZERO Sievert\data.win`
-> Fonts, scripts, sounds, sprites and strings
-
-**Gamedata**: `ZERO Sievert\ZS_vanilla`
-> Load order, values and descriptions for weapons, items, npcs
-
-**Savedata:** `%localappdata%\ZERO_Sievert`
-> Save slots, game settings and backups
-
-&nbsp;
-
-## Debug Mode
-`ctrl` + `alt` + `p`
-> Spawn items and enemies, adjust weather, teleport
-
-&nbsp;
-
-## Editing resources
-**Audio:** [Audacity](https://www.audacityteam.org/) & [Foobar](https://www.foobar2000.org/)
-
-**Coding:** [Notepad++](https://notepad-plus-plus.org/) & [Visual Studio Code](https://code.visualstudio.com/)
-
-**Fonts:** [FontForge](https://fontforge.org/en-US/) & [Google Fonts](https://fonts.google.com/)
-> ZERO Sievert uses [Munro](https://www.fontspace.com/munro-font-f14903)
-
-**Sprites:** [Photopea](https://www.photopea.com/), [Gimp](https://www.gimp.org/) or [Aseprite](https://www.aseprite.org)
-
-&nbsp;
-
-## Creating data.win mods
-**Required:** [UndertaleModTool](https://github.com/krzys-h/UndertaleModTool)
-
-**1.** Open `data.win` with UMT and make desired changes
-
-> Associate UMT with the `.win` filetype for ease of access
-
-![image](https://github.com/ssjshields/zs-modding/assets/88489119/23ac2745-d6b6-4147-992b-25479d6e88a0)
-
-> For texture mods- export content and utilize [Custom Sprite Framework](https://www.nexusmods.com/zerosievert/mods/16)
-
-> Do not redistribute `data.win` files, instead create XDelta patches
-
-&nbsp;
-
-## Creating XDelta patches
-**Required:** [DeltaPatcher](https://github.com/marco-calautti/DeltaPatcher)
-
-**1.** Set "Original file" path to a clean `data.win`
-
-**2.** Set "Modified file" path to the modded `data.win` 
-
-**3.** Set "XDelta patch" path to the desired output location
-
-> It is recommended to add comments to the patch description
-
-![image](https://github.com/ssjshields/zs-modding/assets/88489119/afd07b1b-b683-4fa0-ac5c-f3d1d11ac6b6)
-
-&nbsp;
-
-## Applying XDelta patches
-**Required:** [DeltaPatcher](https://github.com/marco-calautti/DeltaPatcher)
-
-**1.** Set "Original file" path to a clean `data.win`
-
-**2.** Set "XDelta patch" path as the `.xdelta` (mod)
-
-> Patches can only be applied **once**
-
-> Do not load more than one modified `data.win` file at a time
-
-![applying_patch](https://github.com/ssjshields/zs-modding/assets/88489119/fb2caeb1-7b3f-4f6b-9fe8-a3a61809c997)
-
-&nbsp;
-
-## Creating JSON mods
-**1.** Modify `.json` files using desired text editor
-
-**2.** Create a new folder with your mod name as the title `ModName\ZS_vanilla\gamedata`
-
-**3.** Add modified `.json` files to the mod's `gamedata` folder
-
-[Packaged folder structure example](https://github.com/ssjshields/zs-modding/blob/main/example_json_mod.zip)
-
-&nbsp;
-
-## Merging JSON mods
-**Required:** [WinMerge](https://winmerge.org/?lang=en) or similar difference check software
-
-**1.** Compare up to three `.json` files (left, middle and right view.)
-
-![image](https://github.com/ssjshields/zs-modding/assets/88489119/cc9311f2-f755-4472-94ae-1825df1c0501)
-
-**2.** Right-click the highlighted difference and copy the code into the desired file
-
-> Repeat this process for each desired difference, merging all desired changes into a single file
-
-> Due to current limitations, ZERO Siervert can only load one of each `.json` at a time
-
-![image](https://github.com/ssjshields/zs-modding/assets/88489119/dec67afc-b4cd-4b01-b624-8ed98610b8f2)
-
-![image](https://github.com/ssjshields/zs-modding/assets/88489119/d4149992-81d1-4f0d-be76-7518cb51f48f)
-
-![image](https://github.com/ssjshields/zs-modding/assets/88489119/2e86bbb9-8c27-4762-8601-ff77dfb5b05e)
-
-**3.** Save and overwrite original files in desired mod
-
+## Code Checklist
+- [ ] gml_GlobalScript_caliber_get_name.gml
+- [ ] gml_GlobalScript_chest_get_always_max_durability.gml
+- [ ] gml_GlobalScript_chest_get_always_seen.gml
+- [ ] gml_GlobalScript_chest_get_chance_epic.gml
+- [ ] gml_GlobalScript_chest_get_chance_legendary.gml
+- [ ] gml_GlobalScript_chest_get_chance_rare.gml
+- [ ] gml_GlobalScript_chest_get_chance_uncommon.gml
+- [ ] gml_GlobalScript_chest_get_close_sound.gml
+- [ ] gml_GlobalScript_chest_get_decay_items.gml
+- [ ] gml_GlobalScript_chest_get_destroy_when_empty.gml
+- [ ] gml_GlobalScript_chest_get_item_array.gml
+- [ ] gml_GlobalScript_chest_get_item_count_max.gml
+- [ ] gml_GlobalScript_chest_get_item_count_min.gml
+- [ ] gml_GlobalScript_chest_get_name.gml
+- [ ] gml_GlobalScript_chest_get_open_sound.gml
+- [ ] gml_GlobalScript_chest_get_special_items_array.gml
+- [ ] gml_GlobalScript_chest_get_sprite.gml
+- [ ] gml_GlobalScript_chest_is_drop.gml
+- [ ] gml_GlobalScript_chest_is_from_enemy.gml
+- [ ] gml_GlobalScript_db_cloud_clean_up.gml
+- [ ] gml_GlobalScript_db_cloud_sync.gml
+- [ ] gml_GlobalScript_db_cloud_sync_all.gml
+- [ ] gml_GlobalScript_db_cloud_try_restore.gml
+- [ ] gml_GlobalScript_db_create.gml
+- [ ] gml_GlobalScript_db_load.gml
+- [ ] gml_GlobalScript_hotfix_inventory_clean_up_all_positions.gml
+- [ ] gml_GlobalScript_init_faction_rep.gml
+- [ ] gml_GlobalScript_init_factions.gml
+- [ ] gml_GlobalScript_inventory_add_item.gml
+- [ ] gml_GlobalScript_item_ammo_get_acc.gml
+- [ ] gml_GlobalScript_item_ammo_get_caliber.gml
+- [ ] gml_GlobalScript_item_ammo_get_damage.gml
+- [ ] gml_GlobalScript_item_ammo_get_dur.gml
+- [ ] gml_GlobalScript_item_ammo_get_number.gml
+- [ ] gml_GlobalScript_item_ammo_get_pen.gml
+- [ ] gml_GlobalScript_item_ammo_get_recoil.gml
+- [ ] gml_GlobalScript_item_ammo_get_shell.gml
+- [ ] gml_GlobalScript_item_armor_get_anomaly.gml
+- [ ] gml_GlobalScript_item_armor_get_class.gml
+- [ ] gml_GlobalScript_item_armor_get_dur_damage.gml
+- [ ] gml_GlobalScript_item_armor_get_firearm.gml
+- [ ] gml_GlobalScript_item_armor_get_pierce.gml
+- [ ] gml_GlobalScript_item_armor_get_radiation.gml
+- [ ] gml_GlobalScript_item_armor_get_s_dead.gml
+- [ ] gml_GlobalScript_item_armor_get_s_idle.gml
+- [ ] gml_GlobalScript_item_armor_get_s_run.gml
+- [ ] gml_GlobalScript_item_backpack_get_ergonomic.gml
+- [ ] gml_GlobalScript_item_backpack_get_movement_speed.gml
+- [ ] gml_GlobalScript_item_backpack_get_sprite.gml
+- [ ] gml_GlobalScript_item_backpack_get_weight.gml
+- [ ] gml_GlobalScript_item_base_upgrade_get_id.gml
+- [ ] gml_GlobalScript_item_base_upgrade_get_lvl_req.gml
+- [ ] gml_GlobalScript_item_consumable_get_animation.gml
+- [ ] gml_GlobalScript_item_consumable_get_energy.gml
+- [ ] gml_GlobalScript_item_consumable_get_fatigue.gml
+- [ ] gml_GlobalScript_item_consumable_get_radiation.gml
+- [ ] gml_GlobalScript_item_consumable_get_sound.gml
+- [ ] gml_GlobalScript_item_consumable_get_thirst.gml
+- [ ] gml_GlobalScript_item_document_get_reputation.gml
+- [ ] gml_GlobalScript_item_get_category.gml
+- [ ] gml_GlobalScript_item_get_description.gml
+- [ ] gml_GlobalScript_item_get_key_single_use.gml
+- [ ] gml_GlobalScript_item_get_name.gml
+- [ ] gml_GlobalScript_item_get_scrap.gml
+- [ ] gml_GlobalScript_item_get_sprite_ingame.gml
+- [ ] gml_GlobalScript_item_get_sprite_inv.gml
+- [ ] gml_GlobalScript_item_get_stack_max.gml
+- [ ] gml_GlobalScript_item_get_value.gml
+- [ ] gml_GlobalScript_item_get_weight.gml
+- [ ] gml_GlobalScript_item_headset_get_blue.gml
+- [ ] gml_GlobalScript_item_headset_get_brightness.gml
+- [ ] gml_GlobalScript_item_headset_get_contrast.gml
+- [ ] gml_GlobalScript_item_headset_get_gamma.gml
+- [ ] gml_GlobalScript_item_headset_get_grain.gml
+- [ ] gml_GlobalScript_item_headset_get_green.gml
+- [ ] gml_GlobalScript_item_headset_get_light_id.gml
+- [ ] gml_GlobalScript_item_headset_get_red.gml
+- [ ] gml_GlobalScript_item_headset_get_type.gml
+- [ ] gml_GlobalScript_item_inj_get_bleed_immune.gml
+- [ ] gml_GlobalScript_item_inj_get_bleed_rec.gml
+- [ ] gml_GlobalScript_item_inj_get_duration.gml
+- [ ] gml_GlobalScript_item_inj_get_hp_regen.gml
+- [ ] gml_GlobalScript_item_inj_get_hunger.gml
+- [ ] gml_GlobalScript_item_inj_get_hunger_regen.gml
+- [ ] gml_GlobalScript_item_inj_get_max_hp.gml
+- [ ] gml_GlobalScript_item_inj_get_max_weight.gml
+- [ ] gml_GlobalScript_item_inj_get_rad_def.gml
+- [ ] gml_GlobalScript_item_inj_get_rad_regen.gml
+- [ ] gml_GlobalScript_item_inj_get_stamina_max.gml
+- [ ] gml_GlobalScript_item_inj_get_stamina_regen.gml
+- [ ] gml_GlobalScript_item_inj_get_thirst.gml
+- [ ] gml_GlobalScript_item_inj_get_thirst_regen.gml
+- [ ] gml_GlobalScript_item_med_get_animation.gml
+- [ ] gml_GlobalScript_item_med_get_bleed.gml
+- [ ] gml_GlobalScript_item_med_get_can_move.gml
+- [ ] gml_GlobalScript_item_med_get_duration.gml
+- [ ] gml_GlobalScript_item_med_get_hp.gml
+- [ ] gml_GlobalScript_item_med_get_radiation.gml
+- [ ] gml_GlobalScript_item_med_get_speed_multiplier.gml
+- [ ] gml_GlobalScript_item_med_get_wound.gml
+- [ ] gml_GlobalScript_item_mod_get_acc.gml
+- [ ] gml_GlobalScript_item_mod_get_barrel_length.gml
+- [ ] gml_GlobalScript_item_mod_get_damage.gml
+- [ ] gml_GlobalScript_item_mod_get_ergo.gml
+- [ ] gml_GlobalScript_item_mod_get_handguard_length.gml
+- [ ] gml_GlobalScript_item_mod_get_handguard_x.gml
+- [ ] gml_GlobalScript_item_mod_get_handguard_y.gml
+- [ ] gml_GlobalScript_item_mod_get_laser_color.gml
+- [ ] gml_GlobalScript_item_mod_get_magazine_size.gml
+- [ ] gml_GlobalScript_item_mod_get_position_array.gml
+- [ ] gml_GlobalScript_item_mod_get_recoil.gml
+- [ ] gml_GlobalScript_item_mod_get_reload_speed.gml
+- [ ] gml_GlobalScript_item_mod_get_scope_image.gml
+- [ ] gml_GlobalScript_item_mod_get_scope_optic.gml
+- [ ] gml_GlobalScript_item_mod_get_silencer_sound.gml
+- [ ] gml_GlobalScript_item_mod_get_torch_alpha_mettere.gml
+- [ ] gml_GlobalScript_item_mod_get_torch_alpha_togliere.gml
+- [ ] gml_GlobalScript_item_mod_get_torch_color.gml
+- [ ] gml_GlobalScript_item_mod_get_torch_scale.gml
+- [ ] gml_GlobalScript_item_mod_get_torch_sprite.gml
+- [ ] gml_GlobalScript_item_mod_get_type.gml
+- [ ] gml_GlobalScript_item_mod_get_value.gml
+- [ ] gml_GlobalScript_item_mod_get_weapon_all.gml
+- [ ] gml_GlobalScript_item_mod_get_weapon_array.gml
+- [ ] gml_GlobalScript_item_mod_handguard_pos_exists.gml
+- [ ] gml_GlobalScript_item_repair_caliber_fits_weapon.gml
+- [ ] gml_GlobalScript_item_repair_get_caliber_array.gml
+- [ ] gml_GlobalScript_item_repair_get_condition_gain.gml
+- [ ] gml_GlobalScript_item_repair_get_condition_max.gml
+- [ ] gml_GlobalScript_item_repair_get_condition_min.gml
+- [ ] gml_GlobalScript_item_weapon_get_ammo.gml
+- [ ] gml_GlobalScript_item_weapon_get_bullet_obj.gml
+- [ ] gml_GlobalScript_item_weapon_get_bullet_speed.gml
+- [ ] gml_GlobalScript_item_weapon_get_caliber.gml
+- [ ] gml_GlobalScript_item_weapon_get_damage.gml
+- [ ] gml_GlobalScript_item_weapon_get_ergo.gml
+- [ ] gml_GlobalScript_item_weapon_get_fire_mode.gml
+- [ ] gml_GlobalScript_item_weapon_get_magazine.gml
+- [ ] gml_GlobalScript_item_weapon_get_moddable.gml
+- [ ] gml_GlobalScript_item_weapon_get_precisione.gml
+- [ ] gml_GlobalScript_item_weapon_get_rate_of_fire.gml
+- [ ] gml_GlobalScript_item_weapon_get_recoil.gml
+- [ ] gml_GlobalScript_item_weapon_get_reload_time.gml
+- [ ] gml_GlobalScript_item_weapon_get_reload_type.gml
+- [ ] gml_GlobalScript_item_weapon_get_sound.gml
+- [ ] gml_GlobalScript_item_weapon_get_sound_cocking.gml
+- [ ] gml_GlobalScript_item_weapon_get_sound_mag_in.gml
+- [ ] gml_GlobalScript_item_weapon_get_sound_mag_out.gml
+- [ ] gml_GlobalScript_item_weapon_get_type.gml
+- [ ] gml_GlobalScript_item_weapon_pos_get_moddable.gml
+- [ ] gml_GlobalScript_item_weapon_pos_get_needed.gml
+- [ ] gml_GlobalScript_item_weapon_pos_get_x.gml
+- [ ] gml_GlobalScript_item_weapon_pos_get_y.gml
+- [ ] gml_GlobalScript_lista_text.gml
+- [ ] gml_GlobalScript_loadout_get_description.gml
+- [ ] gml_GlobalScript_loadout_get_item_count.gml
+- [ ] gml_GlobalScript_loadout_get_item_id.gml
+- [ ] gml_GlobalScript_loadout_get_name.gml
+- [ ] gml_GlobalScript_loadout_get_starting_money.gml
+- [ ] gml_GlobalScript_mm_init_tutorial.gml
+- [ ] gml_GlobalScript_mod_pos_get_name.gml
+- [ ] gml_GlobalScript_player_action_change_ammo.gml
+- [ ] gml_GlobalScript_player_action_open_inventory.gml
+- [ ] gml_GlobalScript_player_line_of_sight.gml
+- [ ] gml_GlobalScript_player_puppet_execute_state.gml
+- [ ] gml_GlobalScript_puppet_state_move.gml
+- [ ] gml_GlobalScript_scr_check_item_position.gml
+- [ ] gml_GlobalScript_scr_load_storage.gml
+- [ ] gml_GlobalScript_scr_load_trader_item.gml
+- [ ] gml_GlobalScript_scr_move_item_quickly.gml
+- [ ] gml_GlobalScript_scr_open_inventory.gml
+- [ ] gml_GlobalScript_scr_player_state_choose_map.gml
+- [ ] gml_GlobalScript_scr_player_state_inventory.gml
+- [ ] gml_GlobalScript_scr_player_state_move.gml
+- [ ] gml_GlobalScript_scr_player_state_talk.gml
+- [ ] gml_GlobalScript_scr_quest_create_kill.gml
+- [ ] gml_GlobalScript_scr_save_storage.gml
+- [ ] gml_GlobalScript_scr_save_weapon_modded.gml
+- [ ] gml_GlobalScript_scr_setup_save_databases.gml
+- [ ] gml_GlobalScript_scr_use_quick_slot.gml
+- [ ] gml_GlobalScript_speaker_get_index.gml
+- [ ] gml_GlobalScript_trader_get_faction.gml
+- [ ] gml_GlobalScript_trader_get_format_pages.gml
+- [ ] gml_GlobalScript_trader_get_item_array.gml
+- [ ] gml_GlobalScript_trader_get_money.gml
+- [ ] gml_GlobalScript_trader_get_name.gml
+- [ ] gml_GlobalScript_trader_item_get_count.gml
+- [ ] gml_GlobalScript_trader_item_get_id.gml
+- [ ] gml_GlobalScript_trader_unpack_to_loot_array.gml
+- [ ] gml_Object_obj_bullet_hit_wall_Create_0.gml
+- [ ] gml_Object_obj_controller_Draw_64.gml
+- [ ] gml_Object_obj_editor_Alarm_1.gml
+- [ ] gml_Object_obj_item_Alarm_0.gml
+- [ ] gml_Object_obj_light_Create_0.gml
+- [ ] gml_Object_obj_light_enemy_torch_Step_0.gml
+- [ ] gml_Object_obj_logo_screen_Create_0.gml
+- [ ] gml_Object_obj_logo_screen_Step_0.gml
+- [ ] gml_Object_obj_main_menu_Create_0.gml
+- [ ] gml_Object_obj_main_menu_Draw_64.gml
+- [ ] gml_Object_obj_main_menu_Step_0.gml
+- [ ] gml_Object_obj_mouse_Step_0.gml
+- [ ] gml_Object_obj_npc_human_parent_Destroy_0.gml
+- [ ] gml_Object_obj_npc_parent_Create_0.gml
+- [ ] gml_Object_obj_npc_parent_Destroy_0.gml
+- [ ] gml_Object_obj_particles_controller_Create_0.gml
+- [ ] gml_Object_obj_vertex_grass_Create_0.gml
